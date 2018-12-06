@@ -5,19 +5,46 @@ body {
   width: 960px;
   font-size: 18px;
   text-align:center;
-  margin:10px;
+
 }
 
-header, nav, section, aside, footer {
-  background: #ebebeb;
+header, nav, section, aside, footer  {
+  background-color: #ebebeb;
+  margin:10px auto;
+  
+}
+
+header, nav, footer {
+  width: 75%;
+}
+
+section {
+width:41%;
+display:inline;
+float:left;
+}
+
+aside {
+width: 33%;
+display:inline;
+float:left;
+}
+
+footer {
+  clear: both;
 }
 
 article {
   color: #ebebeb;
-  background: #777;
+  background-color: #777;
 }
 
 h1 p {
   color:#777;
-  background:#ebebeb;
+  background-color:#ebebeb;
+}
+
+h13 {
+  font-size: 18px;
+  display: inline;
 }
